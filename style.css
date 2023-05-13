@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.nav{
+    background-image: url(./5e073d0c9f8781577532684418.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 100%;       
+}
+.nav .name{
+    margin-left: 30px;
+    font-family: Georgia;
+    line-height: 2;
+    width: 500px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    border-top: solid rgba(225, 225, 225, 0.4) 2px;
+    border-bottom: solid rgba(225, 225, 225, 0.4) 2px;     
+    position: sticky;
+    z-index: 99;
+    /* position: relative; */
+    top: 0;   
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    float: right;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display:block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+}
+.header{
+    /* margin-top: 100px; */
+    border-bottom: solid black 2px;
+    height: 400px;
+    background-image: url(./ranger-4df6c1b6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h4{
+    font-family: Goudy Old Style, Verdana, Tahoma, sans-serif;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+.header .profile-picture{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 0 120px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+}
+.header .profile-picture img{
+    width: 230px;
+    height: 230px;
+    border-radius: 10%;
+    border: solid white 2px;
+    transition: 0.8s;
+}
+.header .profile-picture img:hover{
+    width: 250px;
+    height: 250px;
+}
+.header .table-info{
+    float: left;
+    margin: 50px 0 0 150px;
+    height: 250px;
+    width: 500px;
+}
+.header .table-info table {
+    text-align: center;
+}
+.header .table-info ul{
+    list-style: none;
+}
+.header .table-info ul li{
+    text-align: left;
+}
+.header .table-info table th{
+    line-height: 2;
+}
+.box{
+    padding-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-image: url(./download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid black 2px;
+}
+.box .sample-1{
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 10px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border-radius: 10%;
+    border: solid black 2px;
+}
+.box .sample-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    border: solid black 2px;
+}
+.box .sample-2{
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border-radius: 10%;
+    border: solid black 2px;
+}
+.box .sample-2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    border: solid black 2px;
+}
+.box .link-info {
+    float: left;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.box .link-info a{
+    margin-bottom: 25px;
+    display: block;
+    border: solid skyblue 3px;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3;
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.box .link-info img{
+    height: 50%;
+    vertical-align: middle;
+}
+.box .link-info a:hover{
+    /* height: 70px; */
+    width: 550px;
+    background-color: grey;
+    color: black;
+    border: solid black 3px;
+}
+.box2{
+    padding-top: 30px;
+    height: 400px;
+    width: 100%;
+    background-image: url(./9652db7b8e9ef1a18243c52b400a70f9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid black 2px;
+}
+.box2 .about-me{
+    float: left;
+    margin-left: 50px;
+    height: 300px;
+    width: 500px;
+}
+.box2 .about-me h4{
+    font-family: Comic Sans MS;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.box2 .about-me P{
+    font-family: Lucida Console;
+    text-align: justify;
+}
+.box2 .hobbies{
+    float: right;
+    margin-right: 50px;
+    height: 300px;
+    width: 500px;
+}
+.box2 .hobbies h4{
+    font-family: Comic Sans MS;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.box2 .hobbies p{
+    font-family: Lucida Console;
+    text-align: justify;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 10%;
+    border: solid black 2px;
+    text-align: center;
+}
+.content:hover{
+    opacity: 1;
+    color: white;
+}
+.full-image{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.full-image img{
+    width: 90%;
+    max-width: 500px;
+}
+.full-image span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.share-button{
+    display: inline-block;
+    float: right;
+    margin-top: 8px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(52, 52, 52);
+}
+.share-button svg{
+    margin-left: 1px;
+    margin-bottom: 8px;
+    color: white;
+}
+.text-box{
+    height: 10px;
+}
